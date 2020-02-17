@@ -9,6 +9,9 @@ gem "rubyzip", ">= 1.3.0"
 gem 'rails', '~> 5.2.3'
 # bootstrap-sass to convert Less => Sass for rails use
 gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+# jquery required with for bootstrap
+gem 'jquery-rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
